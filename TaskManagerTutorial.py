@@ -42,7 +42,7 @@ def valid_task_number(all_tasks, operation):
                 break
             else:
                 print('Task not found! Please enter a valid task number.\n')
-        except:
+        except ValueError:
             print('Invalid input! Please enter a valid task number.\n')
 
     return task_number
